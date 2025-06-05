@@ -51,6 +51,7 @@ const CTA = () => {
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white px-8 py-4 text-lg rounded-xl transition-all duration-300 hover:shadow-none hover:scale-105 group w-full sm:w-auto"
+                
               >
                 Join ShareWay Today
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
