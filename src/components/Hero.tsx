@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-6xl sm:text-5xl md:text-7xl font-bold font-heading text-gray-900 mb-6 leading-tight">
             <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-              ShareWay
+              ShareWays
             </span>
             <br />
             <span className="text-gray-700 text-2xl sm:text-3xl md:text-5xl">

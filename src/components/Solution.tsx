@@ -13,7 +13,7 @@ const Solution = () => {
               </span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-              ShareWay connects drivers with empty seats and passengers traveling similar routes. 
+              ShareWays connects drivers with empty seats and passengers traveling similar routes. 
               If no driver is available, passengers can share a cab and split the fare.
             </p>
           </div>
