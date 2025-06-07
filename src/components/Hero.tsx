@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
+import { scrollTo } from "@/utils/lenis";
+
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-    }
+    scrollTo(`#${sectionId}`, {
+      offset: 50,
+      duration: 1.5,
+    });
   };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-green-200 via-blue-200 to-white overflow-hidden">
       {/* Background decoration */}
